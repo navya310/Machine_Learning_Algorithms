@@ -16,7 +16,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 import matplotlib.pyplot as plt
 
-#load the dataset
+#loading the dataset
 # x train is training images, y train is train labels
 (x_train,y_train), (x_test,y_test) = mnist.load_data()
 
